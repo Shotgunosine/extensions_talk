@@ -16,14 +16,15 @@ conda create -n nbext -c conda-forge python=3 jupyter notebook jupyter_contrib_n
 conda create -n nbextr -c conda-forge python=3 jupyter notebook jupyter_contrib_nbextensions r-irkernel ipywidgets r-ggplot2
 ```
 
-[This could be a diagram up on the whiteboard]
-Talk about jupyter architecture:
+[This could be a diagram up on the whiteboard]. 
+Talk about jupyter architecture:  
 
-kernel       server                 client 
-[python,     [server extensions]    [notebook/lab extensions]
-R,
-julia,
-etc.]
+|kernel    |   server             |    client 
+-----------|----------------------|-----------------------------
+|Python    |  server extensions   | notebook/lab extensions
+|R
+|Julia
+|etc.
 
 We'll start with notebook extensions
 
