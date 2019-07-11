@@ -41,7 +41,6 @@ Demo some neat notebook extensions:
 * interactive brain viewer from nilearn (and brainsprite.js)
 * [todo]ipywidgets  
 
-
 switch over to the nbextr environment . 
 then you can show a notebook with an R kernel and some ggplotting
 
