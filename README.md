@@ -39,7 +39,7 @@ Demo some neat notebook extensions:
 * exercise2
 * autocode formatting (conda install -c conda-forge autopep8)  
 * interactive brain viewer from nilearn (and brainsprite.js)
-* [todo]ipywidgets  
+* ipywidgets  
 
 switch over to the nbextr environment . 
 then you can show a notebook with an R kernel and some ggplotting
