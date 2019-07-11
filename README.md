@@ -26,17 +26,17 @@ Talk about jupyter architecture:
 |Julia
 |etc.
 
-We'll start with notebook extensions
+We'll start with notebook extensions.  
 
-conda create -n nbext -c conda-forge python=3 jupyter notebook jupyter_contrib_nbextensions ipywidgets
+```conda create -n nbext -c conda-forge python=3 jupyter notebook jupyter_contrib_nbextensions ipywidgets```
 
 Demo some neat notebook extensions:
-table of contents (2)
-Python Markdown
-Hide input
-conda magic
-autopep8
-exercise2
+*table of contents (2)
+*Python Markdown
+*Hide input
+*conda magic
+*autopep8
+*exercise2
 
 [todo]ipywidgets
 
