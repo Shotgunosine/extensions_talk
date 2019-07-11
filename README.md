@@ -1,5 +1,21 @@
 # Notes for talk about extensions
 
+## preparation
+This uses two conda environments, both relying on conda-forge
+I added conda-forge as a higher priority channel and set strict channel priority to get this to work, ymmv:
+
+```
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
+
+Then these are the two environments used:
+```
+conda create -n nbext -c conda-forge python=3 jupyter notebook jupyter_contrib_nbextensions ipywidgets
+
+conda create -n nbextr -c conda-forge python=3 jupyter notebook jupyter_contrib_nbextensions r-irkernel ipywidgets r-ggplot2
+```
+
 [This could be a diagram up on the whiteboard]
 Talk about jupyter architecture:
 
@@ -21,17 +37,13 @@ conda magic
 autopep8
 exercise2
 
-ipywidgets
+[todo]ipywidgets
 
-some in-notebook interactive brain viewer
-...
+[todo] some in-notebook interactive brain viewer
+[todo] others?
 autocode formatting (conda install -c conda-forge autopep8)
 
-Now lets look at adding some additional kernels
-conda install -c conda-forge r-irkernel # this breaks!
 
-we'll create a separate environment after setting up channel priority
-conda config --add channels conda-forge
-conda config --set channel_priority strict
+switch over to the nbextr environment
+then you can show a notebook with an R kernel and some ggplotting
 
-conda create -n nbextr -c conda-forge python=3 jupyter notebook jupyter_contrib_nbextensions r-irkernel ipywidgets
