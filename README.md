@@ -37,12 +37,9 @@ Demo some neat notebook extensions:
 * conda magic
 * autopep8
 * exercise2
-
-[todo]ipywidgets  
-
-[todo] some in-notebook interactive brain viewer . 
-[todo] others?  
-autocode formatting (conda install -c conda-forge autopep8) . 
+* autocode formatting (conda install -c conda-forge autopep8)  
+* interactive brain viewer from nilearn (and brainsprite.js)
+* [todo]ipywidgets  
 
 
 switch over to the nbextr environment . 
